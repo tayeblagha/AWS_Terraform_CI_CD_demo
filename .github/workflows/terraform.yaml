@@ -37,5 +37,5 @@ jobs:
         id: plan
         run: terraform plan -no-color
 
-      - name: Terraform Apply
+      - name: Terraform Destroy -auto-approve
         run: terraform apply -auto-approve
